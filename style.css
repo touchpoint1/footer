@@ -59,10 +59,42 @@ ul{
     font-weight: 300;
     display: block;
     transition: 0.3s ease;
-
-
 }
+
+
 .footer-col ul li:hover{
-    color: black;
+    color:#ffffff;
     padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:white;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: navy;
+    transition: 0.5s ease;
+
+} 
+.footer-col .social-links a:hover{
+    color: whitesmoke;
+    padding-left: 10px;
+    background-color: navy;
+}
+
+@media(max-width:767px){
+    .footer-col {
+        width: 50%; 
+        margin-bottom: 30px; 
+    }
+}
+
+@media(max-width:574px){
+    .footer-col {
+        width: 100%; 
+        margin-bottom: 30px; 
+    }
 }
